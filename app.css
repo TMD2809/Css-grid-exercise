@@ -8,6 +8,7 @@
     --primary-space_between: 30px;
 }
 body {
+    padding: 30px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     background-color: #d3d3d3;
@@ -47,7 +48,4 @@ img {
 }
 .test-items:nth-child(5) {
     grid-row: 3/4;
-}
-.test-view.test-items:nth-child(4) {
-    object-position: top-left;
 }
